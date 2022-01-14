@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/htsh-tsyk/releasetest/compare/v1.0.0...v1.1.0) (2022-01-14)
+
+
+### Features
+
+* add hotfix 1 line ([e8709ae](https://github.com/htsh-tsyk/releasetest/commit/e8709aeb18a0b6391e14144fcf0a1e2672c5c4b8))
+
 ## 1.0.0 (2022-01-14)
 
 
