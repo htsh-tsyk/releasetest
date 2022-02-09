@@ -1,5 +1,17 @@
 # Changelog
 
+### [1.3.1](https://github.com/htsh-tsyk/releasetest/compare/v1.1.0...v1.3.1) (2022-02-09)
+
+
+### Features
+
+* **doc:** add next version to README ([cc96218](https://github.com/htsh-tsyk/releasetest/commit/cc962182d5e98cca89bd2bbebe14b75b65cbe6e1))
+
+
+### Miscellaneous Chores
+
+* release 1.3.1 ([01dcb6e](https://github.com/htsh-tsyk/releasetest/commit/01dcb6e128f6cce57178aa19f8a2951ee53d1a1a))
+
 ## [1.2.0](https://github.com/htsh-tsyk/releasetest/compare/v1.1.0...v1.2.0) (2022-02-09)
 
 
