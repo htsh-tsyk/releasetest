@@ -5,6 +5,14 @@
 
 ### Features
 
+* **doc:** add 1.x version ([89ecbb9](https://github.com/htsh-tsyk/releasetest/commit/89ecbb916ceb706120ab99a2dbe73c3921254a9f))
+* **doc:** add main version ([e8b09f3](https://github.com/htsh-tsyk/releasetest/commit/e8b09f367b8bfb4b9c2afe9d0226c2048ccea7dc))
+
+## [1.4.0](https://github.com/htsh-tsyk/releasetest/compare/v1.3.1...v1.4.0) (2022-02-09)
+
+
+### Features
+
 * **doc:** add 1.x version ([fb1a8de](https://github.com/htsh-tsyk/releasetest/commit/fb1a8deef036ee64f5cb24fa58bb7db42f680c0e))
 
 ### [1.3.1](https://github.com/htsh-tsyk/releasetest/compare/v1.1.0...v1.3.1) (2022-02-09)
