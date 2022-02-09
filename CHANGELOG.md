@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/htsh-tsyk/releasetest/compare/v1.3.1...v1.4.0) (2022-02-09)
+
+
+### Features
+
+* **doc:** add 1.x version ([fb1a8de](https://github.com/htsh-tsyk/releasetest/commit/fb1a8deef036ee64f5cb24fa58bb7db42f680c0e))
+
 ### [1.3.1](https://github.com/htsh-tsyk/releasetest/compare/v1.1.0...v1.3.1) (2022-02-09)
 
 
