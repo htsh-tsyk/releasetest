@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/htsh-tsyk/releasetest/compare/v1.1.0...v1.2.0) (2022-02-09)
+
+
+### Features
+
+* **doc:** add next version with branch name prefix to README ([28430b9](https://github.com/htsh-tsyk/releasetest/commit/28430b9318082f5d858a1e39230aee79d00ae340))
+
 ## [1.1.0](https://github.com/htsh-tsyk/releasetest/compare/v1.0.0...v1.1.0) (2022-01-14)
 
 
