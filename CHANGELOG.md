@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/htsh-tsyk/releasetest/compare/v1.0.0...v1.1.0) (2022-01-14)
+
+
+### Features
+
+* add main 1 line ([2a8827a](https://github.com/htsh-tsyk/releasetest/commit/2a8827a76ab1b7aa33f5d060f93a755d136c1464))
+
 ## 1.0.0 (2022-01-14)
 
 
