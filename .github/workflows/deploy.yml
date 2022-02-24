@@ -1,0 +1,16 @@
+name: Deploy
+
+on:
+  workflow_call:
+    inputs:
+      stage:
+        required: true
+        type: string
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ./.github/actions/my-action@v1
+        with:
+          username: ${{ inputs.username }}
+          token: ${{ secrets.token }}    
