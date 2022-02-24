@@ -19,7 +19,3 @@ jobs:
       - name: Deploy to production
         if: ${{ inputs.production }}
         run: echo production is true
-
-      - name: Check secrets
-        if: ${{ secrets.FOO == "BAR" }}
-        run: secrets.FOO is "BAR"
