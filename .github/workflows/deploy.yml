@@ -12,5 +12,10 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
+      - name: Deploy to staging
+        if: ${{ inputs.stage == "staging" }}
+        run: echo stage is ${{ inputs.stage }}
+
       - name: Deploy to production
+        if: ${{ inputs.stage == "production" }}
         run: echo stage is ${{ inputs.stage }}
