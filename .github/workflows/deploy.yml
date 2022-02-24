@@ -3,9 +3,9 @@ name: Deploy
 on:
   workflow_call:
     inputs:
-      stage:
+      production:
         required: true
-        type: string
+        type: boolean
 
 jobs:
   deploy:
@@ -13,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to staging
-        if: ${{ inputs.stage == "staging" }}
-        run: echo stage is ${{ inputs.stage }}
+        if: ${{ inputs.production == false }}
+        run: echo production is false
 
       - name: Deploy to production
-        if: ${{ inputs.stage == "production" }}
-        run: echo stage is ${{ inputs.stage }}
+        if: ${{ inputs.production }}
+        run: echo production is true
 
       - name: Check secrets
         if: ${{ secrets.FOO == "BAR" }}

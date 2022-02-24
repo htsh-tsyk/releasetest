@@ -21,11 +21,11 @@ jobs:
     needs: release-please
     if: ${{ needs.release-please.outputs.release_created == false }}
     with:
-      stage: staging
+      production: false
 
   deploy-production:
     uses: htsh-tsyk/releasetest/.github/workflows/deploy.yml@main
     needs: release-please
     if: ${{ needs.release-please.outputs.release_created }}
     with:
-      stage: production
+      production: true
