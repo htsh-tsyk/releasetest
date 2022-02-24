@@ -8,12 +8,9 @@ on:
         type: string
 
 jobs:
-  deploy-staging:
-    name: Deploy staging
+  deploy:
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: ./.github/actions/my-action@v1
-        with:
-          stage: ${{ inputs.stage }}
       - name: Deploy to production
         run: echo stage is ${{ inputs.stage }}
