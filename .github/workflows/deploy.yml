@@ -6,11 +6,14 @@ on:
       stage:
         required: true
         type: string
+
 jobs:
-  deploy:
+  deploy-staging:
+    name: Deploy staging
     runs-on: ubuntu-latest
     steps:
       - uses: ./.github/actions/my-action@v1
         with:
-          username: ${{ inputs.username }}
-          token: ${{ secrets.token }}    
+          stage: ${{ inputs.stage }}
+      - uses: ./.github/actions/my-action@v1
+        run: echo stage is ${{ inputs.stage }}
