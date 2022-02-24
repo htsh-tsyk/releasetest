@@ -19,3 +19,7 @@ jobs:
       - name: Deploy to production
         if: ${{ inputs.stage == "production" }}
         run: echo stage is ${{ inputs.stage }}
+
+      - name: Check secrets
+        if: ${{ secrets.FOO == "BAR" }}
+        run: secrets.FOO is "BAR"
