@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.2](https://github.com/htsh-tsyk/releasetest/compare/v1.4.1...v1.4.2) (2022-02-24)
+
+
+### Bug Fixes
+
+* set release_created and tag_name on release-please job ([61386f9](https://github.com/htsh-tsyk/releasetest/commit/61386f931b4136757caf360a4c9825c71d64b53b))
+
 ### [1.4.1](https://github.com/htsh-tsyk/releasetest/compare/v1.3.1...v1.4.1) (2022-02-24)
 
 
